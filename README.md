@@ -1,31 +1,25 @@
-# C.V
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>اسمي الكامل</h1>
-        <p>وظيفتي الحالية</p>
-    </header>
-    <section>
-        <h2>عنّي</h2>
-        <p>معلومات عنّي</p>
-    </section>
-    <section>
-        <h2>التعليم</h2>
-        <p>تفاصيل التعليم</p>
-    </section>
-    <section>
-        <h2>الخبرة</h2>
-        <p>تفاصيل الخبرة</p>
-    </section>
-    <footer>
-        <p>معلومات الاتصال</p>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
